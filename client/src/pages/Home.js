@@ -3,6 +3,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import AnimatedSection from '../components/AnimatedSection';
 
+
 const Home = ({ setCurrentPage }) => {
   return (
     <div className="page home-page">
@@ -37,6 +38,7 @@ const Home = ({ setCurrentPage }) => {
               To create innovative, user-friendly web applications that solve real-world problems 
               and deliver exceptional user experiences through clean code and creative design.
             </p>
+            <p>This update demonstrates CI/CD workflow with Netlify automatic deployment.</p>
           </motion.div>
           
           <motion.div 
@@ -108,5 +110,6 @@ const Home = ({ setCurrentPage }) => {
     </div>
   );
 };
+
 
 export default Home;
